@@ -14,6 +14,17 @@ h1 {
     padding-right: 1em;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a {
+    color: #ffffff;
+}
+
 .title-container {
     text-align: center;
 }
@@ -136,6 +147,10 @@ p {
     .button {
         font-size: 2em;
     }
+
+    .center {
+        width: 25%;
+    }
 }
 
 /* ----------- Non-Retina Screens ----------- */
@@ -151,6 +166,10 @@ p {
     .button {
         font-size: 2em;
     }
+
+    .center {
+        width: 15%;
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -165,5 +184,9 @@ p {
 
     .button {
         font-size: 2em;
+    }
+
+    .center {
+        width: 15%;
     }
 }
